@@ -1,0 +1,196 @@
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+}
+.navbar{
+	 text-align: center;
+     background-color: #ffc107;
+}
+h3{
+	font-size: 35px;
+    color: #fff;
+    font-family: ui-serif;
+}
+.spantag{
+	 font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    }
+a{
+	color:#fff!important;
+	font-size: 20px;
+  font-family: ui-sans-serif;
+
+}
+a:hover {
+  background: #19a99c;
+    padding:10px 20px 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+ul{
+   padding-left: 100px!important;
+   word-spacing: 15!important;
+   }
+
+li{ 
+	    padding: 0 35px 0 ;
+ }
+ p{
+  font-size: 20px;
+    font-family: math;
+    font-weight: 500;
+    background: #cae9f352;
+    padding: 30px;
+     text-align: justify;
+ }
+ button{
+    margin-top: 19px;
+    padding: 10px 25px 10px 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background: #68447a;
+    border:1px solid #fff;
+ }
+ button:hover {
+  background: #19a99c;
+    padding:10px 20px 10px 20px;
+    border: none;
+}
+ .topbanner{
+  position: relative;
+  padding:12%;
+    height: 100%;
+        background-image: linear-gradient(44deg, #09618b, #E91E63);
+ 	   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+     text-align: center;
+}
+.centerheader{
+  font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .aboutheader{
+    text-align: center;
+    padding: 65px;
+    color: #09618b;
+    font-family: ui-sans-serif;
+    font-size: 47px;
+    font-weight: 600;
+  }
+  .card-header {
+    font-size: 20;
+    font-weight: 600;
+  }
+  .card-footer{
+    font-size: 15;
+    font-weight: 600;
+   background: #19a99c;
+  }
+  .testimonial{
+    border: 1px solid gray;
+    padding:20px;
+    
+  }
+  .footer{
+    text-align: center;
+    background: #09618b;
+    height: auto;
+    margin-top: 50px;
+}
+hr{
+     width: 200px;
+    }
+h6{
+      color: #f9f8f496;
+    padding-top: 40px;
+}
+/*--end peoject --*/
+.about{
+  background-image: url("../image/background.jpg");
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutspage{
+  padding: 50px;
+}
+.contactheader{
+  text-align: center;
+    padding: 40px;
+    font-size: 35px;
+    color: #fff;
+}
+.formContact{
+margin: 120px;
+background-color:#2196f31f;
+}
+form{
+  padding: 49px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #eae31363;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #ffc107;;
+  color: white;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+      margin-top: 28px;
+    margin-left: 52%;
+  }
+
+input[type=submit]:hover {
+  background: #19a99c;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.cardgame{
+  margin: 75px;
+}
+
